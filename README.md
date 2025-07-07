@@ -24,3 +24,7 @@ tempeartureに入る
 firebaseの鍵はtemperIot3.json
 
 スプレッドシートの鍵はtempergraph.json
+
+temperdate.py と tempergraph.py　は別のターミナルで実行　
+
+temperslack.py　を別のターミナルで実行することでslackからの通知も可能
