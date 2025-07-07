@@ -14,8 +14,9 @@ raspberrypiで取得した気温データをfirebaseに保存できる
 
 ## 気温データのグラフ
 
-![説明文](images/https://github.com/ishi-0409/temperdate/blob/main/Temperature%20%E3%81%A8%20Humidity.png)
+![Temperature と Humidity グラフ](https://raw.githubusercontent.com/ishi-0409/temperdate/main/Temperature%20%E3%81%A8%20Humidity.png)
 
+実際に数時間データを取り続け、スプレッドシートに出力されたデータをもとにグラフを作成し、データを可視化することができる
 
 ## メモ
 
@@ -32,3 +33,7 @@ firebaseの鍵はtemperIot3.json
 temperdate.py と tempergraph.py　は別のターミナルで実行　
 
 temperslack.py　を別のターミナルで実行することでslackからの通知も可能
+
+スプレッドシートに出力された日時は文字として出力されているので数値におきかえる関数を挟む必要がある
+
+関数自体はちがうシートのa1に書かれているため、それをコピペしてd2のセルに張り付けると日時の詳細設定を反映させることができる
