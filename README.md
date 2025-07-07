@@ -14,6 +14,8 @@ raspberrypiで取得した気温データをfirebaseに保存できる
 
 ## 気温データのグラフ
 
+![説明文](images/graph.png)
+https://github.com/ishi-0409/temperdate/blob/main/Temperature%20%E3%81%A8%20Humidity.png
 
 
 ## メモ
